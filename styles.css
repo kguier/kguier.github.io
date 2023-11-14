@@ -13,7 +13,7 @@ body {
 nav {
     display: flex;
     padding: 1rem;
-    background-color: grey;
+    background-color: lightgrey;
 }
 
 nav ul {
@@ -63,14 +63,25 @@ h2 {
     flex-direction: column;
     align-items: center;
     background-color: #3399ff;
-    
+    min-height: 25rem;
+    padding-top: 1rem;
 }
 
 .Information {
     display: flex;
     flex-direction: row;
     gap: 30rem;
+    margin: 1rem;
+    font-size: larger;
+    padding-right: 2rem;
 
+}
+
+.Summary {
+    outline-style: solid;
+    outline-color: lightgrey;
+    outline-width: thin;
+    max-width: 45rem;
 }
 
 .Project-Boxes {
