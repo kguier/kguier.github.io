@@ -101,7 +101,8 @@ h2 {
     padding: 4rem;
     gap: 7rem;
     flex-wrap: wrap;
-    justify-content: center;
+    align-items: center;
+    justify-content:center;
     font-size: large;
 
 }
@@ -113,7 +114,8 @@ h2 {
     display: grid;
     place-content: center;
     text-align:center;
-
+    width: 14rem;
+    height: 14rem;
 
 }
 
@@ -124,6 +126,8 @@ h2 {
     display: grid;
     place-content: center;
     text-align:center;
+    width: 14rem;
+    height: 14rem;
 }
 
 .Project-Three {
@@ -133,6 +137,8 @@ h2 {
     display: grid;
     place-content: center;
     text-align:center;
+    width: 14rem;
+    height: 14rem;
 }
 
 .Project-Four, .Project-Five, .Project-Six, .Project-Seven, .Project-Eight {
@@ -142,6 +148,8 @@ h2 {
     display: grid;
     place-content: center;
     text-align:center;
+    width: 14rem;
+    height: 14rem;
 }
 
 .Contact {
