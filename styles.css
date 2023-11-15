@@ -1,19 +1,22 @@
 * {
     box-sizing: border-box;
+    
 }
 
 body {
     margin: 0;
     min-height: 100vh;
     font-family: Garamond;
-    
+    background-color: #3399ff;
 }
 
 
 nav {
     display: flex;
+    align-items: center;
     padding: 1rem;
     background-color: lightgrey;
+    max-height: 4rem;
 }
 
 nav ul {
@@ -57,12 +60,24 @@ h2 {
     
 }
 
+h3 {
+    font-size: x-large;
+    
+}
+
+
+.profile-image {
+    image-rendering: auto;
+    height: 30rem;
+    width: auto;
+    padding-left: 13rem;
+    padding-top: 1rem;
+    
+}
 
 .About {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    background-color: #3399ff;
     min-height: 25rem;
     padding-top: 1rem;
 }
@@ -70,10 +85,11 @@ h2 {
 .Information {
     display: flex;
     flex-direction: row;
-    gap: 30rem;
+    gap: 12rem;
     margin: 1rem;
-    font-size: larger;
-    padding-right: 2rem;
+    font-size: x-large;
+    padding-right: 7rem;
+    
 
 }
 
@@ -82,15 +98,14 @@ h2 {
     outline-color: lightgrey;
     outline-width: thin;
     max-width: 45rem;
+    padding: 2rem;
 }
 
 .Projects {
-    display: flex;
-    max-height: 25rem;
-    background-color: #3399ff;
-    position:absolute;
-    flex-direction: column;
-    align-items: center;
+    /* display: flex; 
+    /* max-height: 50rem; */
+    /*flex-direction: row; */
+    /* align-items: center; */
 
 }
 
@@ -101,61 +116,81 @@ h2 {
     padding: 4rem;
     gap: 7rem;
     flex-wrap: wrap;
+    flex-direction: row;
     align-items: center;
     justify-content:center;
-    font-size: large;
+    font-size: medium;
+    
+
+}
+
+.project-images {
+    image-rendering: auto;
+    height: 100px;
+    width: 100px;
 
 }
 
 .Project-One {
     border-radius: 2px;
     border-style: solid;
-    padding: 1rem 2rem;
+    padding: 2rem 4rem;
     display: grid;
     place-content: center;
     text-align:center;
     width: 14rem;
     height: 14rem;
+    background-color: lightgray; 
+    
 
 }
 
 .Project-Two {
     border-radius: 2px;
     border-style: solid;
-    padding: 1rem 2rem;
+    padding: 2rem 4rem;
     display: grid;
     place-content: center;
     text-align:center;
     width: 14rem;
     height: 14rem;
-}
+    background-color: lightgray; 
+} 
 
 .Project-Three {
     border-radius: 2px;
     border-style: solid;
-    padding: 1rem 2rem;
+    padding: 2rem 4rem;
     display: grid;
     place-content: center;
     text-align:center;
     width: 14rem;
     height: 14rem;
+    background-color: lightgray;
 }
 
 .Project-Four, .Project-Five, .Project-Six, .Project-Seven, .Project-Eight {
     border-radius: 2px;
     border-style: solid;
-    padding: 1rem 2rem;
+    padding: 1rem 4rem;
     display: grid;
     place-content: center;
     text-align:center;
     width: 14rem;
     height: 14rem;
+    gap: 3rem;
+    background-color: lightgray; 
+    
+} 
+
+p2 {
+    font-style: italic;
 }
 
 .Contact {
     max-height: 20rem;
-    position: absolute;
-    background-color: #3399ff;
+    /* position: absolute; */
+
 }
 
 .Contact-Details {
